@@ -1,16 +1,8 @@
-function setMainHeight() {
-    let header: HTMLElement = document.getElementsByTagName("header")[0];
+import './app.css'
+import App from './App.svelte'
 
-    document.getElementsByTagName("main")[0].style.height =
-        window.innerHeight - header.offsetHeight - 1 + "px";
-}
+const app = new App({
+  target: document.getElementById('app'),
+})
 
-function main() {
-    setMainHeight();
-
-    onresize = function () {
-        setMainHeight();
-    };
-}
-
-main();
+export default app
