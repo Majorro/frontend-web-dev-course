@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import loading from "../assets/loading.gif"
-    import type { ComicJson } from "../lib/ComicJson";
+    import loading from "$lib/images/loading.gif"
+    import type { ComicJson } from "./ComicJson";
     
     let comicImg: HTMLImageElement;
     let comicTitle: HTMLDivElement;

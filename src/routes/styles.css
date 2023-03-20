@@ -1,0 +1,55 @@
+body {
+	margin: 0px;
+}
+
+a {
+	margin: 20px;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer {
+  padding: 16px 15px 0px;
+}
+
+footer > p {
+  margin: 0px;
+}
+
+#title-name {
+	margin-bottom: 0px;
+}
+
+.bg-image {
+	background: linear-gradient(rgba(255, 149, 44, 0.3), rgba(255, 149, 44, 0.3)),
+		url("$lib/images/lefrut2.jpg");
+	height: 100vh;
+	width: 100vw;
+	z-index: -1;
+	position: fixed;
+	filter: blur(8px);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.icon-link,
+nav > a {
+	color: rgb(255, 111, 0);
+}
+
+.icon-link:hover,
+nav > a:hover {
+	color: rgb(167, 72, 0);
+	text-decoration: none;
+}
