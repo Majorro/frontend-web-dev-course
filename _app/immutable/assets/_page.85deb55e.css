@@ -1,0 +1,2 @@
+#typed-message.svelte-sdp9pp{font-size:3vw;overflow:hidden;border-right:0.1em solid orange;white-space:nowrap;margin:0 auto;letter-spacing:0.1em;animation:svelte-sdp9pp-typing 3.5s steps(40, end),
+            svelte-sdp9pp-blink-caret 0.75s step-end infinite}@keyframes svelte-sdp9pp-typing{from{width:0%}to{width:100%}}@keyframes svelte-sdp9pp-blink-caret{from,to{border-color:transparent}50%{border-color:rgb(255, 111, 0)}}
